@@ -113,7 +113,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Notes")
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarTitleDisplayMode(.automatic)
             .onAppear(perform: {
                 load()
             })
